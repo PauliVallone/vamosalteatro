@@ -1,3 +1,11 @@
 body {
   background-color: #f3ce0c;
 }
+
+.card-color {
+  background-color: #f3ce0c;
+}
+
+.disabled {
+  display: none;
+}
