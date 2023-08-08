@@ -9,3 +9,59 @@ body {
 .disabled {
   display: none;
 }
+
+/*CARRITO ESTILO*/
+
+.titulo {
+  text-align: center;
+}
+
+.carrito-obra {
+  display: grid;
+
+  padding: 20px;
+  grid-template-columns: repeat(5, 150px);
+  grid-template-rows: 1fr;
+  grid-template-areas: "titulo cantidad precio subtotal eliminar";
+}
+
+.carrito-obra-titulo {
+  font-size: 30px;
+  grid-area: titulo;
+  justify-self: center;
+  align-self: center;
+}
+
+.carrito-obra-cantidad {
+  font-size: 18px;
+  grid-area: cantidad;
+  text-align: center;
+  align-self: center;
+}
+
+.carrito-obra-precio {
+  font-size: 18px;
+  grid-area: precio;
+  text-align: center;
+  align-self: center;
+}
+
+.carrito-obra-subtotal {
+  font-size: 25px;
+  grid-area: subtotal;
+  text-align: center;
+  align-self: center;
+}
+
+.carrito-obra-eliminar {
+  grid-area: eliminar;
+  border-radius: 15px;
+  height: 30px;
+  align-self: center;
+}
+
+.carrito-obra-eliminar:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
