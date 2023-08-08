@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imagen": "/images/desgracia.jpg",
+    "imagen": "../images/desgracia.jpg",
     "nombre": "La Desgracia",
     "precio": 4500,
     "genero": "Comedia",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "imagen": "/images/mama.jpg",
+    "imagen": "../images/mama.jpg",
     "nombre": "Mama esta mas chiquita",
     "precio": 3500,
     "genero": "Drama",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "imagen": "/images/teresita.jpg",
+    "imagen": "../images/teresita.jpg",
     "nombre": "Teresita",
     "precio": 2800,
     "genero": "Comedia",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "imagen": "/images/cardio.jpg",
+    "imagen": "../images/cardio.jpg",
     "nombre": "15 minutos de cardio",
     "precio": 1500,
     "genero": "Comedia",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "imagen": "/images/nomedigas.jpg",
+    "imagen": "../images/nomedigas.jpg",
     "nombre": "No me digas, que ya se",
     "precio": 3800,
     "genero": "Comedia",
