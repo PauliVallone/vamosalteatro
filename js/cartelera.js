@@ -1,7 +1,7 @@
 const producto = (a, b) => a * b;
 const costo = (x) => x * 1.1;
 const getObras = async () => {
-  const respuesta = await fetch("/data/data.json");
+  const respuesta = await fetch("../data/data.json");
   return await respuesta.json();
 };
 
